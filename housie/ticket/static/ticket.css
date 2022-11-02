@@ -1,0 +1,64 @@
+
+.ticketbackground{
+    padding:18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 509px;
+    height: 258px;
+    left: 478px;
+    bottom: 278px;
+    
+    background: #002F66;
+    border-radius: 12px;
+
+    }
+   
+
+    #ticket{
+        width:450px;
+        height:150px;
+        padding:0px;
+    }
+
+
+    .button{
+        height:50px;
+        width:50px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        color:white;
+        cursor: pointer;
+        float:left;
+    }
+
+    .elementbutton{
+    background-color: #0A5FC2;
+    border: 1px solid #002B5C;
+    }
+
+    .noelementbutton{
+        background-color: hwb(0 18% 81%);
+        border: 1px solid #002B5C;
+      }
+     
+    .notMatched{
+        position: relative;
+        background-color: hwb(215 55% 5%);
+        color: snow;
+        z-index: 200;
+        animation: .75s ease-in-out reverse button-marked;
+
+    }
+
+
+.matched{
+    color:red;
+}
+   
+
+
+
+   

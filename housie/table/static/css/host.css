@@ -1,0 +1,75 @@
+
+.style{
+    width : 50px;
+    margin:5px;
+    border-radius:5px;
+    border:none;
+
+    
+}
+.btn-style{
+    background-color: blue;
+    color:red;
+}
+.home-bg{
+    background-color:#42b9f5;
+    background-size:cover;
+    min-height:100vh;
+    
+   
+    
+}
+.button-custom {
+  background-color: #fbeee0;
+  border: 1px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 3px 3px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0 10px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-custom {
+  background-color: #fff;
+}
+
+.button-custom{
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+tr {
+    border: 1px solid none;  
+}
+
+.circle {
+    background:#ffffff;
+    width: 150px;
+    height:80px;
+    border-radius: 50%; 
+  }
+  .startGame{
+    color:black;
+    font-weight:bold;
+    font: size 15PX;;
+  }
+
+        
+
+      
+          
